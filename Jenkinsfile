@@ -1,3 +1,4 @@
+$ cat Jenkinsfile
 pipeline {
     agent any
 
