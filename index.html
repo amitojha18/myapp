@@ -1,3 +1,180 @@
-<h1>Welcome to Jenkins CI/CD Pipeline</h1>
-<h2>This is new update line for test</h2>
-<h3>This CI CD Pipeline is created by Mr Amit Ojha</h3>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxury Salon</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      background:#fff8f5;
+      color:#333;
+    }
+
+    header{
+      height:100vh;
+      background:url('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1400&q=80');
+      background-size:cover;
+      background-position:center;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      color:white;
+    }
+
+    .hero{
+      background:rgba(0,0,0,0.6);
+      padding:40px;
+      border-radius:15px;
+    }
+
+    .hero h1{
+      font-size:60px;
+      margin-bottom:15px;
+    }
+
+    .hero p{
+      font-size:22px;
+      margin-bottom:25px;
+    }
+
+    .btn{
+      text-decoration:none;
+      background:#ff4081;
+      color:white;
+      padding:12px 25px;
+      border-radius:30px;
+      font-size:18px;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#e91e63;
+    }
+
+    section{
+      padding:70px 10%;
+      text-align:center;
+    }
+
+    section h2{
+      font-size:40px;
+      margin-bottom:40px;
+      color:#e91e63;
+    }
+
+    .services{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:white;
+      border-radius:15px;
+      overflow:hidden;
+      box-shadow:0 5px 15px rgba(0,0,0,0.2);
+      transition:0.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+    }
+
+    .card img{
+      width:100%;
+      height:250px;
+      object-fit:cover;
+    }
+
+    .card h3{
+      margin:15px 0;
+      color:#444;
+    }
+
+    .card p{
+      padding:0 15px 20px;
+      font-size:15px;
+    }
+
+    .about{
+      background:#ffeef4;
+      border-radius:15px;
+      padding:40px;
+      line-height:1.8;
+      font-size:18px;
+    }
+
+    footer{
+      background:#222;
+      color:white;
+      text-align:center;
+      padding:20px;
+      margin-top:40px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <div class="hero">
+      <h1>Luxury Salon</h1>
+      <p>Beauty, Style & Confidence</p>
+      <a href="#services" class="btn">Explore Services</a>
+    </div>
+  </header>
+
+  <section id="services">
+    <h2>Our Services</h2>
+
+    <div class="services">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=600&q=80" alt="Hair Cut">
+        <h3>Hair Styling</h3>
+        <p>Professional haircuts and stylish looks for men and women.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=600&q=80" alt="Makeup">
+        <h3>Makeup</h3>
+        <p>Get party, bridal, and professional makeup services.</p>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=600&q=80" alt="Spa">
+        <h3>Spa & Massage</h3>
+        <p>Relax your body and mind with our luxury spa treatments.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <section>
+    <h2>About Us</h2>
+
+    <div class="about">
+      <p>
+        Welcome to Luxury Salon, where beauty meets perfection.
+        We provide premium salon services with experienced professionals,
+        modern styling techniques, and a relaxing environment.
+        Your beauty and satisfaction are our top priorities.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Luxury Salon | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
